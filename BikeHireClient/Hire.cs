@@ -36,7 +36,7 @@ namespace BikeHire.Models
         public override string ToString()
         {
             return "HireID: " + HireID + ", FirstName: " + FirstName + ", Surname: " + Surname +
-                            ", Address: " + Address + ", PhoneNumbere: " + PhoneNumber +
+                            ", Address: " + Address + ", PhoneNumber: " + PhoneNumber +
                             ", StartDate: " + StartDate.ToShortDateString() + ", FinishDate: " + FinishDate.ToShortDateString();
         }
 
